@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: absolute;
+    background: #242121;
+    padding: 110px 0;
+
+    display: inline;
+    width: 100%;
+}
+
+.cabezera {
+    position: relative;
+	width: 940px;
+	margin: 0 auto 0 auto;
+
+}
+
+
+#cuerda {
+    left: 0;
+    top: 0;
+    width: 140px;
+    position: fixed;
+    
+}
+
+h1 {
+    top: 15%;
+    left: 470px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    font-size: 120px;
+    font-style: bold;
+}
