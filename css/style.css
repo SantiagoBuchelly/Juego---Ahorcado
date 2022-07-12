@@ -32,6 +32,7 @@ header {
 }
 
 h1 {
+    width: 940px;
     position: fixed;
     margin-top: 10px;
     top: 5px;
@@ -161,7 +162,7 @@ footer {
     position: absolute;
     padding: 10px 10px 0px 10px;
     bottom: 0;
-    width: 100%;
+    width: 940px;
     /* Height of the footer*/ 
     height: 60px;
     background: url(../images/rr.jpg);
