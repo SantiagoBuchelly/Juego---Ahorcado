@@ -172,39 +172,3 @@ footer p {
     color: #BBBBBB;
     font-size: 1.1rem;
 }
-@media screen and (max-width: 480px){ /*para hacer que nuestro programa sea responsivo en otros aparatos*/
-
-
-	header, .cabezera, main{
-		width: auto;
-	}
-
-    h1 {
-        font-size: 15rem;
-        left: 28%;
-        top: 100%;
-        display: inline;
-    }
-
-    #cuerda{
-        position: absolute;
-        display: inline;
-        left: 30%;
-        width: 180px;
-        top: 9%;
-    }
-
-    .navegacion {
-        display: block;
-        margin-top: 40px;
-        top: 900px;
-        left: 0px;
-    }
-
-    .opciones{
-        padding: 70px 70px;
-    }
-
-
-
-}
