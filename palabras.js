@@ -1,0 +1,1 @@
+const words = ['dinosaurio',"audifonos","tija","trueno","aviones","rinoceronte","eternidad","daga","monologo","cantantes","sol","monologo","correo","ladrillos","girasol","truco","deforme","amenazar","actor","habito","alianza", "servilleta","capullo"];
