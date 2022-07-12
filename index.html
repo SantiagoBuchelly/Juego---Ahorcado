@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width">
         <title>Ahorcado - Juego</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">      
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+        <script type="text/javascript" src="script.js" defer></script> 
+        <script type="text/javascript" src="palabras.js" defer></script>       
     </head>
 
     <body>
 
         <header>
-            <div class="cabezera">
-                <img src="images/ahorcado-icono.jpg" id="cuerda" alt="Logo juego del ahoracado">
-                 <h1><p id="articulo-titulo"> El</p> <p id="sustantivo-titulo"> Ahorcado</p><h1>
-            </div>
+            <img src="images/ahorcado-icono.jpg" id="cuerda" alt="Logo juego del ahoracado">
+            <h1><p id="articulo-titulo"> El</p> <p id="sustantivo-titulo"> Ahorcado</p><h1>
         </header>
 
         <main>
-            <section class="navegacion">
-                    <button id="iniciar-el-juego">Iniciar el juego &#10148;</button>
-                    <input type="text" id="palabra" class="input-padron" required>
-                    <button id="agregar-palabra">Agregar palabra &#10148;</button>
-            </section>    
+            <div id="first-div">
+                <canvas id="canvas"></canvas>
+                <div id="usedLetters"></div>
+            </div>
+            <div id="usedLetters"></div>
+            <div id="wordContainer"></div>
+            <p id="parrafo-letras">Letras usadas:</p>
+            <button id="startButton">Iniciar el juego &#10148;</button>
+            <!--<input type="text" id="palabra-escribir" class="input-padron" required> -->
+            <!--<button id="agregar-palabra">Agregar palabra &#10148;</button>  -->
         </main>
 
         <footer>
