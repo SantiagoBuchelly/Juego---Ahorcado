@@ -2,6 +2,10 @@
     color: transparent;
 }
 
+html {
+    width: 1366px;
+}
+
 header , body {
     background: url(../images/wood2.jpg);
     overflow: hidden;
