@@ -5,7 +5,7 @@
 header , body {
     background: url(../images/wood2.jpg);
     overflow: hidden;
-    width: 940px;
+    width: 1366px;
     display: relative;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,6 @@ header {
     height: 200px;
     position: relative;
     display: inline;    
-    width: 940px;
 }
 
 #cuerda {
@@ -32,7 +31,7 @@ header {
 }
 
 h1 {
-    width: 940px;
+    width: auto;
     position: fixed;
     margin-top: 10px;
     top: 5px;
@@ -162,7 +161,7 @@ footer {
     position: absolute;
     padding: 10px 10px 0px 10px;
     bottom: 0;
-    width: 940px;
+    width: 1366px;
     /* Height of the footer*/ 
     height: 60px;
     background: url(../images/rr.jpg);
