@@ -4,22 +4,19 @@
 
 html {
     max-width: 100%;
-    margin-right: 0px;
+    background: url(../images/wood2.jpg);
 }
 
 header , body {
-    background: url(../images/wood2.jpg);
     overflow: hidden;
     width: 100%;
     display: relative;
     justify-content: center;
     align-items: center;
-    margin-right: 0px;
 }
 
 body {
     height: 1000px;
-    margin: 0 0 0 0;
 }
 
 header {
