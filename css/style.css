@@ -14,6 +14,7 @@ header , body {
     display: relative;
     justify-content: center;
     align-items: center;
+    margin-right: 0px;
 }
 
 body {
